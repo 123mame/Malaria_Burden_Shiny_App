@@ -48,24 +48,7 @@ server <- function(input, output) {
       labs(title = paste0("Burden of malaria in Ethiopian regions"," "," (", input$Metrice, ")."),
            subtitle= paste0(input$Mesure_id, " ", "for", " ", input$Select_genders,  "."), x = "Year", y = " ",
            color = "Location")
-    # Divide each plot x axis from 1990 to 2019 by 2 interval
     
-    # gg <- gg + labs(x=NULL, y=NULL,
-    #                 title=sprintf("%s", paste0("Malaria", " ", cc, " ", "Per 100k residents" ) )) #replace gg and put common and Dynamic(cc) title for all
-    # 
-    # gg <- gg + theme(axis.ticks=element_blank()) # remove ticks from the x and y axis or hyphen(-) symbol
-    # gg <- gg + theme(axis.text=element_text(size=5)) # make x and y axis number or text size as 5
-    # gg <- gg + theme(panel.border=element_blank()) # make border of the plot clear
-    # gg <- gg + theme(plot.title=element_text(hjust=0, size=6)) # make a plot tite horizontaly adjust by 0 and make size of text 6
-    # gg <- gg + theme(panel.margin.x=unit(0.5, "cm")) #make argin of the panal of x by half cm
-    # #gg <- gg + theme(panel.margin.y=unit(0.5, "cm"))  #make argin of the panal of y by half cm
-    # gg <- gg + theme(legend.title=element_text(size=6)) # Legend title make size 6
-    # gg <- gg + theme(legend.title.align=1) # make allign with legends
-    # gg <- gg + theme(legend.text=element_text(size=5)) # legend text is 5
-    # gg <- gg + theme(legend.position="bottom") # kake at the bottom of the plot
-    # gg <- gg + theme(legend.key.size=unit(0.1, "cm")) # make key zie of the legend
-    # gg <- gg + theme(legend.key.width=unit(0.5, "cm")) # make the width of the key by half
-    # 
     gg
   })
   
