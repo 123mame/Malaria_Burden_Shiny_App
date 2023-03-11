@@ -21,7 +21,7 @@ The app utilizes data from the Institute for Health Metrics and Evaluation (IHME
 4. Run the following command: `shiny::runApp()`
 5. The app will open in a web browser
 
-HTML("Author: Mohammed Bheser hassen <br>
+Author: Mohammed Bheser hassen <br>
            Email: <a href= 'mbeshir26@gmail.com'>mbeshir26@gmail.com</a> <br>
                Student at University of Washington<br>
                Research Assistant at IHME" )
